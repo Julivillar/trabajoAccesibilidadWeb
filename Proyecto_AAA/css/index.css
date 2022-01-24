@@ -93,6 +93,7 @@ a:hover {
 /*
     Principal
 */
+.svg{ z-index:1;}
 
 main {
     height: 800px;
