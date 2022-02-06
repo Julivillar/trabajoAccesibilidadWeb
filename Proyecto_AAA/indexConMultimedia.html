@@ -6,25 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portada</title>
-    <style>
-        .si:hover {
-            -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
-            box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
-        }
-
-        .logos {
-            height: 15px;
-            width: 15px;
-            padding: 0.5rem;
-        }
-    </style>
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <nav class="menu">
 
-        <img src="img/logo.png" alt="logo alternativo de la web" class="boton-Menu">
+        <img src="img/logo.PNG" alt="logo alternativo de la web" class="boton-Menu">
         <ul>
             <li class="textoMenu"><span class="textoMenuGirado"><a href="index.html">Inicio</a></span></li>
             <li class="textoMenu"><span class="textoMenuGirado"><a href="infoPersonal.html">Sobre mi</a></span></li>
@@ -34,7 +22,7 @@
             <li class="textoMenu"><span class="textoMenuGirado"><a href="noticias-blog.html">Blog</a></span></li>
             <li class="textoMenu"><span class="textoMenuGirado"><a href="contacto.html">Contacto</a></span></li>
             <li class="textoMenu"><span class="textoMenuGirado"><a href="mapaWeb.html">Mapa de la Web</a></span></li>
-            <li class="textoMenu"><span class="textoMenuGirado"><img class="imgcompartir" src="img/compartir.png" alt="Logo de compartir"></span></li>
+
         </ul>
     </nav>
 
@@ -42,7 +30,7 @@
         <main class="main">
             <section class="principal">
                 <h1 class="noMostrar"> Portada</h1>
-                <svg height="130" width="500" class="svg">
+                <svg class="svg">
                     <defs>
                         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
                             <stop offset="20%" style="stop-color:rgb(255, 0, 55);stop-opacity:1" />
@@ -57,16 +45,16 @@
                 </svg>
                 <section class="redes">
                     <h1 class="noMostrar"> Seccion de enlaces</h1>
-                    <img src="img/fb-icon.png" alt="logo de facebook" class="logos">
-                    <img src="img/tw-icon.png" alt="logo de twitter" class="logos">
-                    <img src="img/ig-icon.png" alt="logo de instagram" class="logos">
+                    <img src="img/fb-icon.PNG" alt="logo de facebook" class="logos">
+                    <img src="img/tw-icon.PNG" alt="logo de twitter" class="logos">
+                    <img src="img/ig-icon.PNG" alt="logo de instagram" class="logos">
+                    <a href="#contenedor-sobre-mi">Ir al contenido</a>
                 </section>
                 <section class="banner">
                     <h1 class="noMostrar"> Banner</h1>
                     <h2>Presentacion y boton para navegar</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing pretium lacus</p>
-                    <button
-                        style=" background-color: #f21e4e; color: white; border:0; border-radius: 5px; height: 50px; width: 150px; cursor: pointer; font-size: 16px; font-weight: 500;">
+                    <button class="botones-rojos" aria-label="boton-sin-uso">
                         Un boton
                     </button>
                     <div class="infoPersonal">
@@ -98,7 +86,7 @@
                         </div>
                         <div class="contenedor-cv">
                             <div class="sobre-mi-img">
-                                <img src="https://mariame.netlify.app/assets/img/hero.jpg" alt="foto para el cv">
+                                <img src="img/hero.jpg" alt="foto para el cv">
                             </div>
                             <div class="texto-sobre-mi">
 
@@ -122,8 +110,7 @@
                                     <li><span class="strong">Work Status</span>Web Designer</li>
                                     <li><span class="strong">Freelancer: </span> Available</li>
                                 </ul>
-                                <button
-                                    style=" background-color: #f21e4e; color: white; border:0; border-radius: 5px; height: 50px; width: 150px; cursor: pointer; font-size: 16px; font-weight: 500;">
+                                <button class="botones-rojos" aria-label="boton-sin-uso">
                                     Descargar el CV
                                 </button>
                             </div>
@@ -235,39 +222,39 @@
                     <h1 class="sobre-titulo">Servicios que ofrece</h1>
                     <p>He trabajado con muchos clientes</p>
                     <div class="contenedor-servicios">
-                        <article class="sv-1 servicio">
+                        <article aria-label="servicio1" class="sv-1 servicio">
                             <h1 class="noMostrar"> Servicio 1</h1>
-                            <button class="boton-servicio">01</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">01</button>
                             <h2>Fotografia</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
-                        <article class="sv-2 servicio">
+                        <article aria-label="servicio2" class="sv-2 servicio">
                             <h1 class="noMostrar"> Servicio 2</h1>
-                            <button class="boton-servicio">02</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">02</button>
                             <h2>Diseño Web</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
-                        <article class="sv-3 servicio">
+                        <article aria-label="servicio3" class="sv-3 servicio">
                             <h1 class="noMostrar"> Servicio 3</h1>
-                            <button class="boton-servicio">03</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">03</button>
                             <h2>Desarrollo Web</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
-                        <article class="sv-4 servicio">
+                        <article aria-label="servicio4" class="sv-4 servicio">
                             <h1 class="noMostrar"> Servicio 4</h1>
-                            <button class="boton-servicio">04</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">04</button>
                             <h2>Diseño Grafico</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
-                        <article class="sv-5 servicio">
+                        <article aria-label="servicio5" class="sv-5 servicio">
                             <h1 class="noMostrar"> Servicio 5</h1>
-                            <button class="boton-servicio">05</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">05</button>
                             <h2>Branding</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
-                        <article class="sv-6 servicio">
+                        <article aria-label="servicio6" class="sv-6 servicio">
                             <h1 class="noMostrar"> Servicio 6</h1>
-                            <button class="boton-servicio">06</button>
+                            <button class="boton-servicio" aria-label="boton-sin-uso">06</button>
                             <h2>Marqueting</h2>
                             <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </article>
@@ -278,50 +265,50 @@
                     <h1 class="sobre-titulo">Trabajos realizados </h1>
                     <p>A Latest Creative Works In Design And Web .</p>
                     <div class="contenedor-trabajos">
-                        <article class="tr-1 trabajo">
+                        <article aria-label="trabajo1" class="tr-1 trabajo">
                             <h1 class="noMostrar"> Trabajo 1</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/1.jpg" alt="trabajo1"
+                                <img src="img/1.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> Diseño grafico</p>
                         </article>
-                        <article class="tr-2 trabajo">
+                        <article aria-label="trabajo2" class="tr-2 trabajo">
                             <h1 class="noMostrar"> Trabajo 2</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/2.jpg" alt="trabajo1"
+                                <img src="img/2.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> PSD Template Design</p>
                         </article>
-                        <article class="tr-3 trabajo">
+                        <article aria-label="trabajo3" class="tr-3 trabajo">
                             <h1 class="noMostrar"> Trabajo 3</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/3.jpg" alt="trabajo1"
+                                <img src="img/3.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> Mobile Application</p>
                         </article>
-                        <article class="tr-4 trabajo">
+                        <article aria-label="trabajo4" class="tr-4 trabajo">
                             <h1 class="noMostrar"> Trabajo 4</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/4.jpg" alt="trabajo1"
+                                <img src="img/4.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> Diseño grafico</p>
                         </article>
-                        <article class="tr-5 trabajo">
+                        <article aria-label="trabajo5" class="tr-5 trabajo">
                             <h1 class="noMostrar"> Trabajo 5</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/5.jpg" alt="trabajo1"
+                                <img src="img/5.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> PSD Template Design</p>
                         </article>
-                        <article class="tr-6 trabajo">
+                        <article aria-label="trabajo6" class="tr-6 trabajo">
                             <h1 class="noMostrar"> Trabajo 6</h1>
                             <div class="contenedor-img-trabajo">
-                                <img src="https://mariame.netlify.app/assets/img/works/6.jpg" alt="trabajo1"
+                                <img src="img/6.jpg" alt="trabajo1"
                                     class="imagen-trabajo">
                             </div>
                             <p> Mobile Application</p>
@@ -332,10 +319,10 @@
                 <section class="opiniones">
                     <h1 class="sobre-titulo">Mis clientes</h1>
                     <div class="contenedor-opiniones">
-                        <article class="grid-opinion1">
+                        <article aria-label="contenedor de opiniones" class="grid-opinion1">
                             <div class="contenedor-opinion1">
                                 <div class="contenedor-img-opinion">
-                                    <img src="https://mariame.netlify.app/assets/img/clients/1.jpg"
+                                    <img src="img/opinion-1.jpg"
                                         alt="Imagen del cliente">
                                 </div>
                                 <p class="text-opinion">
@@ -347,11 +334,11 @@
                                 <h1 class="titulo-opinion"> <span> Amar Smith </span>, Product Manager</h1>
                             </div>
                         </article>
-                        <article class="grid-opinion2">
+                        <article aria-label="contenedor de opiniones" class="grid-opinion2">
                             <h1 class="noMostrar"> Opinion 2</h1>
                             <div class="contenedor-opinion2">
                                 <div class="contenedor-img-opinion">
-                                    <img src="https://mariame.netlify.app/assets/img/clients/2.jpg"
+                                    <img src="img/opinion-2.jpg"
                                         alt="Imagen del cliente">
                                 </div>
                                 <p class="text-opinion">
@@ -370,56 +357,56 @@
                     <h1 class="sobre-titulo">Mi blog</h1>
                     <p>The last post about Graphic and Web Design</p>
                     <div class="contenedor-entradas">
-                        <article class="entrada-blog entrada1">
+                        <article aria-label="entrada al blog" class="entrada-blog entrada1">
                             <div class="contenedor-img-blog">
-                                <img src="https://mariame.netlify.app/assets/img/blog/1.jpg"
+                                <img src="img/blog-1.jpg"
                                     alt="imagen de entrada al blog">
                             </div>
                             <div class="contenedor-contenido-blog">
                                 <p> 09 March, 2020 <span>#Design, #Web</span></p>
                                 <h1>what's the different between Graphic and web design</h1>
                                 <p>texto del blog</p>
-                                <a href="noticia.html"><button class="boton-blog">Enlace al blog</button></a>
+                                <a href="noticia.html"><button class="botones-rojos" aria-label="boton-sin-uso">Enlace al blog</button></a>
                             </div>
 
                         </article>
-                        <article class="entrada-blog  entrada2">
+                        <article aria-label="entrada al blog" class="entrada-blog  entrada2">
                             <div class="contenedor-img-blog">
-                                <img src="https://mariame.netlify.app/assets/img/blog/2.jpg"
+                                <img src="img/blog-2.jpg"
                                     alt="imagen de entrada al blog">
                             </div>
                             <div class="contenedor-contenido-blog">
                                 <p> 09 March, 2020 <span>#Design, #Web</span></p>
                                 <h1>How to Create successful Website for Your Business</h1>
                                 <p>texto del blog</p>
-                                <a href="noticia.html"><button class="boton-blog">Enlace al blog 2</button></a>
+                                <a href="noticia.html"><button class="botones-rojos" aria-label="boton-sin-uso">Enlace al blog 2</button></a>
                             </div>
 
                         </article>
-                        <article class="entrada-blog  entrada3">
+                        <article aria-label="entrada al blog" class="entrada-blog  entrada3">
                             <div class="contenedor-img-blog">
-                                <img src="https://mariame.netlify.app/assets/img/blog/3.jpg"
+                                <img src="img/blog-3.jpg"
                                     alt="imagen de entrada al blog">
                             </div>
                             <div class="contenedor-contenido-blog">
                                 <p> 09 March, 2020 <span>#Design, #Web</span></p>
                                 <h1>What Is Imposter Syndrome? And How You Can Beat It!</h1>
                                 <p>texto del blog</p>
-                                <a href="noticia.html"><button class="boton-blog">Enlace al blog 3</button></a>
+                                <a href="noticia.html"><button class="botones-rojos" aria-label="boton-sin-uso">Enlace al blog 3</button></a>
                             </div>
 
                         </article>
 
-                        <article class="entrada-blog  entrada4">
+                        <article aria-label="entrada al blog" class="entrada-blog  entrada4">
                             <div class="contenedor-img-blog">
-                                <img src="https://mariame.netlify.app/assets/img/blog/4.jpg"
+                                <img src="img/blog-4.jpg"
                                     alt="imagen de entrada al blog">
                             </div>
                             <div class="contenedor-contenido-blog">
                                 <p> 09 March, 2020 <span>#Design, #Web</span></p>
                                 <h1>5 Best Tools will help you to grow your mobile app</h1>
                                 <p>texto del blog</p>
-                                <a href="noticia.html"><button class="boton-blog">Enlace al blog</button></a>
+                                <a href="noticia.html"><button class="botones-rojos" aria-label="boton-sin-uso">Enlace al blog</button></a>
                             </div>
 
                         </article>
@@ -429,21 +416,21 @@
                     <h1 class="sobre-titulo">Contactame</h1>
                     <div class="contenedor-contacto">
                         <div class="contenedor-formulario">
-                            <form class="formulario">
+                            <form class="formulario" name="formulario_contacto">
                                 <div class="colocacion-formulario">
-                                    <input type="text" placeholder="Name" class="input-formulario">
+                                    <label for="nombre"><input type="text" name="nombre" placeholder="Name" class="input-formulario" role="input" title="input del nombre"> </label>
                                 </div>
                                 <div class="colocacion-formulario">
-                                    <input type="text" placeholder="Email" class="input-formulario">
+                                    <label for="email"> <input type="email" name="email" placeholder="Email" class="input-formulario" role="input" title="input del email"></label>
                                 </div>
                                 <div class="colocacion-formulario">
-                                    <input type="text" placeholder="Subject" class="input-formulario">
+                                    <label for="asunto"> <input type="text" name="asunto" placeholder="Subject" class="input-formulario" role="input" title="input del asunto"> </label>
                                 </div>
                                 <div class="colocacion-formulario">
-                                    <textarea name="Messaje" id="mensaje" cols="30" rows="5" class="input-formulario"
-                                        placeholder="Message"></textarea>
+                                    <label aria-label="input del formulario" for="mensaje"> <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="input-formulario" role="input"
+                                        placeholder="Message" title="mensaje"></textarea> </label>
                                 </div>
-                                <button class="boton-blog">Send Message</button>
+                                <button class="botones-rojos" >Send Message</button>
                             </form>
                         </div>
                         <div class="contenedor-data">
@@ -475,32 +462,23 @@
                     </div>
                 </section>
                 <section class="multimedia">
+                    <p>Transcripcion del video </p>
+                    <a href="transcripcion.html">Enlace a la transcripcion del video y audio</a>
                     <audio controls style="display: block;">
                         <source src="audio/mezclaProyectoAudio.mp3" type="audio/mp3">
                       Your browser does not support the audio element.
                     </audio>
 
-                    <video width="560" height="315" controls muted>
+                    <video class="video-mio" controls muted>
                         <source src="video/videoMultimedia.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bkwlyAmD_Y4" title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Uno de los videos inspirados para la edicion</iframe>
+                    <iframe src="https://www.youtube.com/embed/bkwlyAmD_Y4" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video-yt" allowfullscreen> Uno de los videos inspirados para la edicion</iframe>
                 </section>
                 <footer>
                     <p>
                         Derechos y cosas de la persona y empresa
-                    </p>
-                    <p>
-                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                            <img alt="Licencia Creative Commons" style="border-width:0"
-                                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-                        </a>
-                    </p>
-                    <p> Esta obra está bajo una <a rel="license"
-                            href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                            Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
-                    
                     </p>
                 </footer>
             </div>
