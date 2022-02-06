@@ -24,12 +24,6 @@ a {
     padding: 0.5rem;
 }
 
-a:link,
-a:visited
- {
-    color: rgb(0, 0, 0);
-}
-
 a:hover
 a:focus {
     color: red;
