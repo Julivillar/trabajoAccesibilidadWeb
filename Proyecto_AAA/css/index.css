@@ -24,10 +24,7 @@ a {
     padding: 0.5rem;
 }
 
-a:hover
-a:focus {
-    color: red;
-}
+
 .noMostrar{
     display: none;
 }
@@ -668,4 +665,8 @@ main {
         flex-direction: column;
     }
     
+}
+a:hover, a:active, a:focus {
+    text-decoration: underline;
+    color: red;
 }
