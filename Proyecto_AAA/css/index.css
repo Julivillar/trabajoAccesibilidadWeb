@@ -11,12 +11,27 @@ a {
     text-decoration: none;
 }
 
+.svg{
+    position: sticky;
+    top: 1px;
+    height: 130px;
+    width: 500px;
+}
+
+.logos {
+    height: 15px;
+    width: 15px;
+    padding: 0.5rem;
+}
+
 a:link,
-a:visited {
+a:visited
+ {
     color: rgb(0, 0, 0);
 }
 
-a:hover {
+a:hover
+a:focus {
     color: red;
 }
 .noMostrar{
@@ -25,7 +40,16 @@ a:hover {
 .container{
     padding-left: 7rem;
 }
-
+.botones-rojos{
+    background-color: #f21e4e; 
+    border:0; 
+    border-radius: 5px; 
+    height: 50px; 
+    width: 150px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: 500;
+}
 /*
     Menu izquierdo
 */
@@ -88,12 +112,9 @@ a:hover {
     Menu izq Responsive
 */
 
-
-
 /*
     Principal
 */
-.svg{ z-index:1;}
 
 main {
     height: 800px;
@@ -414,7 +435,7 @@ main {
 .servicio, .trabajo{
     text-align: center;
 }
-.servicio:hover{
+.servicio:hover .servicio:focus{
     transition: all .5s ease-in-out;
     transform: scale(1.05);
 }
@@ -424,7 +445,6 @@ main {
     height: 50px;
     border-radius: 50%;
     border: 1px solid rgba(228, 51, 51, 0.322);
-    color: #f21e4e;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
@@ -432,7 +452,8 @@ main {
     opacity: 1;
 }
 
-.boton-servicio:hover {
+.boton-servicio:hover
+.boton-servicio:focus{
     opacity: 0, 1;
     transition: 1s;
     background: rgba(228, 51, 51, 0.322);
@@ -451,7 +472,8 @@ main {
     width: 100%;
     
 }
-.imagen-trabajo:hover{
+.imagen-trabajo:hover
+.imagen-trabajo:focus{
     transition: all .5s ease-in-out;
     transform: scale(1.15); 
 }
@@ -482,14 +504,12 @@ main {
 .text-opinion{
     padding-top: 25px;
     margin-left: 75px;
-    color: slategray;
     font-size: normal;
     text-align: right;
 }
 .titulo-opinion{
     font-size: medium;
     font-weight: normal;
-    color: slategray;
 }
 .titulo-opinion>span{
     font-weight: bolder;
@@ -540,23 +560,13 @@ main {
     height: 100%;
 }
 
-.entrada-blog:hover{
+.entrada-blog:hover
+.entrada-blog:focus{
     transition: all .5s ease-in-out;
     transform: scale(1.05);
 }
 .contenedor-contenido-blog{
     background-color: white;
-}
-.boton-blog{
-    background-color: #f21e4e; 
-    color: white; 
-    border:0; 
-    border-radius: 5px; 
-    height: 50px; 
-    width: 150px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    font-weight: 500;
 }
 /*
     Contacto
@@ -604,6 +614,18 @@ main {
 }
 .negrita-contacto{
     font-weight: bolder;
+}
+/*
+    Multimedia
+*/
+
+.video-yt{
+    width:560px; 
+    height: 315px; 
+}
+.video-mio{
+    width:560px; 
+    height:315px;
 }
 @media(max-width:800px){
     .fila-trabajos {
